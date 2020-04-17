@@ -15,27 +15,27 @@ namespace SortAlgorithms
 	/// Space:   O(n)
 	///
 	/// Fast when the range and nature of potential items is known ahead of time,
-    /// but requires a lot of space (in practice, rarely used).
+	/// but requires a lot of space (in practice, rarely used).
 	/// 
 	/// </summary>
 	public class CountSort : AbstractAlgorithm<object>
-    {
+	{
 		private object[] _objs;
-        private long _valueCount;
+		private long _valueCount;
 		private long _minValue;
 		private long _maxValue;
 		private bool _hasObjects;
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="objValues">These should be ints or longs</param>
-        /// <param name="minValue"></param>
-        /// <param name="maxValue"></param>
-        /// <param name="objs"></param>
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="objValues">These should be ints or longs</param>
+		/// <param name="minValue"></param>
+		/// <param name="maxValue"></param>
+		/// <param name="objs"></param>
 		public CountSort(object[] objValues, long minValue, long maxValue, object[] objs = null)
-            : base(objValues)
-        {
+			: base(objValues)
+		{
 			_objs = objs;
 			_minValue = minValue;
 			_maxValue = maxValue;
@@ -47,8 +47,8 @@ namespace SortAlgorithms
 
 		public override object[] DoRun()
 		{
-            if (_hasObjects)
-    			PrintArray(_objs);
+			if (_hasObjects)
+				PrintArray(_objs);
 
 			object[] sortedObjs = new object[_objCount];
 			//long[] sortedValues = new long[_objCount];
@@ -85,8 +85,8 @@ namespace SortAlgorithms
 					object obj = _objs[j];
 					sortedObjs[buffer[bufferIndex]] = obj;
 				}
-                else
-                {
+				else
+				{
 					sortedObjs[buffer[bufferIndex]] = objValue;
 				}
 
@@ -96,8 +96,8 @@ namespace SortAlgorithms
 			return sortedObjs;
 		}
 
-        private static int ShiftIndex(long index, long minValue)
-        {
+		private static int ShiftIndex(long index, long minValue)
+		{
 			return (int)(index - minValue); // .NET does not (by default) allow arrays bigger than 2GB, so need to return int
 		}
 	}

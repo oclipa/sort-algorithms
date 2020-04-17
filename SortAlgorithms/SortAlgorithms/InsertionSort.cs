@@ -25,8 +25,8 @@ namespace SortAlgorithms
 
 		public override object[] DoRun()
 		{
-            // i = index of unsorted values
-            // j = index of sorted values
+			// i = index of unsorted values
+			// j = index of sorted values
 			for (int i = 1; i < _objCount; i++)
 			{
 				IComparable vUnsorted = _objValues[i] as IComparable; // current unsorted element value
@@ -37,16 +37,16 @@ namespace SortAlgorithms
 				// iterate backwards ("to the left") over the previously sorted values
 				while (j > 0 && vSorted.CompareTo(vUnsorted) >= 0) // vSorted >= vUnsorted 
 				{
-                    // if current unsorted element value is less than neighbouring sorted element value,
-                    // need to move the sorted value to the right and the unsorted value to the left
-                    // (effectively swapping the values)
+					// if current unsorted element value is less than neighbouring sorted element value,
+					// need to move the sorted value to the right and the unsorted value to the left
+					// (effectively swapping the values)
 
 					_objValues[j] = vSorted; // move sorted element to index previously holding unsorted element
 
 					j--; // move the index of the unsorted element to the left
 
-                    if (j > 0)
-    					vSorted = _objValues[j - 1] as IComparable; // get sorted element value at new location
+					if (j > 0)
+						vSorted = _objValues[j - 1] as IComparable; // get sorted element value at new location
 
 					// once vUnsorted < vSorted, we drop out of the loop
 				}

@@ -16,7 +16,7 @@ namespace SortAlgorithms
 	/// Space:   O(lgn)
 	///
 	/// Significantly faster than merge sort but more complicated; works best
-    /// with random data.
+	/// with random data.
 	/// 
 	/// </summary>
 	public class QuickSort : AbstractAlgorithm<object>
@@ -42,13 +42,13 @@ namespace SortAlgorithms
 		{
 			object pivotValue = objValues[leftStartIndex];      // make the first element the pivot point
 
-            int nextIndex = leftStartIndex + 1;                 // get index of next element 
+			int nextIndex = leftStartIndex + 1;                 // get index of next element 
 			int currentIndex = nextIndex;                       // set current index to be index of next element
 
 			/* rearrange the array by putting elements which are less than the pivot
 			   on one side and those which are greater on the other. */
 
-            // iterate over all indexes in range
+			// iterate over all indexes in range
 			for (int j = nextIndex; j <= rightEndIndex; j++)
 			{
 				object currentValue = objValues[j];
@@ -59,21 +59,21 @@ namespace SortAlgorithms
 				}
 			}
 
-            // once we have reached the end of the search, move the pivot value to the correct index
-            // between the higher and lower values
+			// once we have reached the end of the search, move the pivot value to the correct index
+			// between the higher and lower values
 			Swap(objValues, leftStartIndex, currentIndex - 1);
 
 			return currentIndex - 1; // return the pivot index
 		}
 
-        /// <summary>
-        /// Pick a random index in the given range and swap that value with the first value in the range.
-        /// Then partition the array around that value.
-        /// </summary>
-        /// <param name="objValues"></param>
-        /// <param name="startIndex"></param>
-        /// <param name="endIndex"></param>
-        /// <returns></returns>
+		/// <summary>
+		/// Pick a random index in the given range and swap that value with the first value in the range.
+		/// Then partition the array around that value.
+		/// </summary>
+		/// <param name="objValues"></param>
+		/// <param name="startIndex"></param>
+		/// <param name="endIndex"></param>
+		/// <returns></returns>
 		private static int DoRandomPartition(object[] objValues, int startIndex, int endIndex)
 		{
 			Random rand = new Random();
@@ -85,19 +85,19 @@ namespace SortAlgorithms
 			return DoPartition(objValues, startIndex, endIndex);                        // call the partition function
 		}
 
-        /// <summary>
-        /// Find a a pivot point between the start and end values of the array, then
-        /// repeat recursively for the array values either side of the pivot.
-        /// </summary>
-        /// <param name="objValues"></param>
-        /// <param name="leftStartIndex"></param>
-        /// <param name="rightEndIndex"></param>
-        /// <param name="isParallel"></param>
+		/// <summary>
+		/// Find a a pivot point between the start and end values of the array, then
+		/// repeat recursively for the array values either side of the pivot.
+		/// </summary>
+		/// <param name="objValues"></param>
+		/// <param name="leftStartIndex"></param>
+		/// <param name="rightEndIndex"></param>
+		/// <param name="isParallel"></param>
 		private static void DoQuickSort(object[] objValues, int leftStartIndex, int rightEndIndex, bool isParallel = false)
 		{
 			if (leftStartIndex < rightEndIndex)
 			{
-                // Setting a random pivot position may give better performance in some cases
+				// Setting a random pivot position may give better performance in some cases
 				//int pivotIndex = DoRandomPartition(objValues, leftStartIndex, rightEndIndex);     // get position of pivot
 				int pivotIndex = DoPartition(objValues, leftStartIndex, rightEndIndex);     // get position of pivot
 

@@ -6,7 +6,7 @@ namespace SortAlgorithms
 	/// https://www.hackerearth.com/practice/notes/sorting-code-monk/
 	///
 	/// Bubble sort works by comparing each item in the list with the item next
-    /// to it and swapping them if required.
+	/// to it and swapping them if required.
 	/// 
 	/// Worst:   O(n^2)
 	/// Best:    O(n)

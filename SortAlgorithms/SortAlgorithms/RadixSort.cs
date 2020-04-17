@@ -34,18 +34,18 @@ namespace SortAlgorithms
 			// Returns the value of the bit at index 'bitIndex' in 'number'
 
 			// A bitwise AND compares each number, bit-by-bit, using an AND join
-            // to produce a number that is the combination of bits where both the
-            // first bit and second bit in that place were set.
+			// to produce a number that is the combination of bits where both the
+			// first bit and second bit in that place were set.
 
-            // left-shifts 1 by amount bitIndex
-            // e.g. for an 8 bit number, 1 << 4 == 00010000
+			// left-shifts 1 by amount bitIndex
+			// e.g. for an 8 bit number, 1 << 4 == 00010000
 			long bitMask = 1 << bitIndex;
 
-            // AND compare the bitMask with the number
-            //     integer = 46               = 23
-            //      binary = 00101110         = 00010111
-            //     bitMask = 00010000         = 00010000
-            //      result = 00000000 == 0    = 00010000 == 16
+			// AND compare the bitMask with the number
+			//     integer = 46               = 23
+			//      binary = 00101110         = 00010111
+			//     bitMask = 00010000         = 00010000
+			//      result = 00000000 == 0    = 00010000 == 16
 			return ((number & bitMask) != 0) ? 1 : 0;
 		}
 

@@ -40,7 +40,7 @@ namespace SortAlgorithms
 					IComparable vPrev = _objValues[min] as IComparable;
 
 					if (v.CompareTo(vPrev) < 0) // v < vPrev
-    					min = j;
+						min = j;
 				}
 
 				Swap(_objValues, min, i);
