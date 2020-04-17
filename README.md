@@ -2,11 +2,11 @@
 
 | Algorithm |  |
 | :----------| :-------- |
-| Bubble Sort | [c#](https://github.com/oclipa/sort-algorithms/blob/master/SortAlgorithms/SortAlgorithms/BubbleSort.cs) |
-| Count Sort | [c#](https://github.com/oclipa/sort-algorithms/blob/master/SortAlgorithms/SortAlgorithms/CountSort.cs) |
-| Heap Sort | [c#](https://github.com/oclipa/sort-algorithms/blob/master/SortAlgorithms/SortAlgorithms/HeapSort.cs) |
-| Insertion Sort | [c#](https://github.com/oclipa/sort-algorithms/blob/master/SortAlgorithms/SortAlgorithms/InsertionSort.cs) |
-| Merge Sort | [c#](https://github.com/oclipa/sort-algorithms/blob/master/SortAlgorithms/SortAlgorithms/MergeSort.cs) |
-| Quick Sort | [c#](https://github.com/oclipa/sort-algorithms/blob/master/SortAlgorithms/SortAlgorithms/QuickSort.cs) |
-| Radix Sort | [c#](https://github.com/oclipa/sort-algorithms/blob/master/SortAlgorithms/SortAlgorithms/RadixSort.cs) |
-| Selection Sort | [c#](https://github.com/oclipa/sort-algorithms/blob/master/SortAlgorithms/SortAlgorithms/Selection.cs) |
+| Bubble Sort | [c#](https://git.io/JfJCt) |
+| Count Sort | [c#](https://git.io/JfJCq) |
+| Heap Sort | [c#](https://git.io/JfJCm) |
+| Insertion Sort | [c#](https://git.io/JfJC3) |
+| Merge Sort | [c#](https://git.io/JfJCs) |
+| Quick Sort | [c#](https://git.io/JfJCG) |
+| Radix Sort | [c#](https://git.io/JfJCZ) |
+| Selection Sort | [c#](https://git.io/JfJCc) |
