@@ -2,7 +2,7 @@
 
 | Algorithm |  |
 | :----------| :-------- |
-| Bubble Sort | [c#](/oclipa/md.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;BubbleSort.cs) |
+| Bubble Sort | [c#](https://github.com/oclipa/md.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;BubbleSort.cs) |
 | Count Sort | [c#](https://git.io/JfJCq) |
 | Heap Sort | [c#](https://git.io/JfJCm) |
 | Insertion Sort | [c#](https://git.io/JfJC3) |
