@@ -16,3 +16,45 @@
 | Radix Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;RadixSort.cs) |
 | Selection Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;SelectionSort.cs) |
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+------
+**Move along; nothing to see here...**
+
+<script type="text/javascript">
+
+    function loadCSS(filename){ 
+
+       var file = document.createElement("link");
+       file.setAttribute("rel", "stylesheet");
+       file.setAttribute("type", "text/css");
+       file.setAttribute("href", filename);
+       document.head.appendChild(file);
+    }
+
+    //just call a function to load your CSS
+    //this path should be relative your HTML location
+    loadCSS("collapse.css");
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+</script>
+
+
