@@ -1,4 +1,9 @@
-# Sort Algorithms:
+<div style="display: inline-block;">
+<a class="link" href="http://oclipa.github.io/">&lt; home</a>
+<a class="link" href="http://oclipa.github.io/toolbox.html">&lt; toolbox</a>
+</div> 
+
+## Sort Algorithms:
 
 | Algorithm |  |
 | :----------| :-------- |
