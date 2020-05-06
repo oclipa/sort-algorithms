@@ -1,11 +1,20 @@
-//import CreateBubbleSort from './BubbleSort.mjs';
-//import BubbleSort from './BubbleSort.mjs';
 import Algorithm from './Algorithm.mjs';
+
+import BubbleSort from './BubbleSort.mjs';
+import CountSort from './CountSort.mjs';
+import SelectionSort from './SelectionSort.mjs';
+import InsertionSort from './InsertionSort.mjs';
+import MergeSort from './MergeSort.mjs';
+import QuickSort from './QuickSort.mjs';
+import HeapSort from './HeapSort.mjs';
+import RadixSort from './RadixSort.mjs';
 
 class Program {
   constructor() {}
 
   static Run = () => {
+
+    //const origObjValues = [ "apple", "orange", "banana", "apple", "coconut", "olive", "egg", "banana", "ham", "milk", "coconut", "cheese" ];
 
     const valueCount = 10000;
 
@@ -24,58 +33,27 @@ class Program {
 
     const objValues = [...origObjValues];
 
-    // const bs = CreateBubbleSort(objValues);
-    const bs = new BubbleSort();
-
     const algorithms = [
-      bubbleSort
-      // () => { countSort(objValues, min, max) },
-      // () => { selectionSort(objValues) },
-      // () => { insertionSort(objValues) },
-      // () => { mergeSort(objValues) },
-      // () => { quickSort(objValues) },
-      // () => { heapSort(objValues) },
-      // () => { radixSort(longValues) }
+      new BubbleSort(),
+      new CountSort(min, max, origObjValues),
+      new SelectionSort(),
+      new InsertionSort(),
+      new MergeSort(),
+      new QuickSort(),
+      new HeapSort(),
+      new RadixSort()
     ];
 
     for (let i = 0; i < algorithms.length; i++) {
 
-      // reset input values
+      // reset input valuesS
       objValues.length = 0;
       objValues.push(...origObjValues);
 
-      const alg = new Algorithm(algorithms[i]);
-      alg.run(objValues);
+      const alg = new Algorithm();
+      alg.run(algorithms[i], objValues);
     }
   };
-
-  bubbleSort = function() {
-
-    function doSort(objValues) {
-    
-      const objCount = objValues.length; 
-      const maxIndex = objCount - 1;
-    
-      for (let i = 0; i < maxIndex; i++)
-      {
-        let maxIndexExcludingCompared = maxIndex - i;
-    
-        for (let j = 0; j < maxIndexExcludingCompared; j++) // ignore already compared elements
-        {
-          const v = objValues[j];
-          const nextV = objValues[j + 1];
-    
-          if (v > nextV) // v > nextV
-          {
-            objValues[j] = nextV;
-            objValues[j + 1] = v;
-          }
-        }
-      }
-  
-      return objValues;
-    };
-  }
 }
 
 Program.Run();

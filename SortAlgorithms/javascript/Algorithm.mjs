@@ -1,59 +1,38 @@
-// function Algorithm() {
-
-//   // if user accidentally omits the new keyword, this will 
-//   // silently correct the problem...
-//   if ( !(this instanceof Algorithm) )
-//      return new Algorithm();
-
-//  Algorithm.prototype.run = run;
-
-//  function run() {
-//    // console.log(name);
-
-//    var t0 = Date.now()
-//    const sortedValues = Algorithm.prototype.doSort();
-//    var t1 = Date.now()
-
-//    console.log(sortedValues);
-
-//    console.log("Sort took " + (t1 - t0) + " milliseconds.")  
-//  }  
-
-//  //let doSort = () => {};
-
-//  //let algName = '';
-// }
-
-var Algorithm = function (algorithm) {
+const Algorithm = function () {
 
   // if user accidentally omits the new keyword, this will 
   // silently correct the problem...
   if ( !(this instanceof Algorithm) )
      return new Algorithm();
-
-  this.algorithm = algorithm;
 };
 
 Algorithm.prototype = function () {
 
   //private members
-  const run = function (objValues) {
+  const run = function (algorithm, objValues) {
 
-    console.log(this.algorithm.algName);
-    console.log(sortedValues);
+    console.log(algorithm.algName);
+    console.log(objValues.slice(0, 100));
 
-    var t0 = Date.now()
-    const sortedValues = this.algorithm.doSort(objValues);
-    var t1 = Date.now()
+    const t0 = Date.now();
+    const sortedObjs = algorithm.doSort(objValues);
+    const t1 = Date.now();
 
-    console.log(sortedValues);
+    console.log(sortedObjs.slice(0, 100));
 
     console.log("Sort took " + (t1 - t0) + " milliseconds.")   
   };
 
+  const swap = function (objValues, index1, index2) {
+      const obj1 = objValues[index1];
+      objValues[index1] = objValues[index2];
+      objValues[index2] = obj1;
+  }
+
   //public members
   return {
-      run: run
+      run: run,
+      swap: swap
   };
 } ();
 
