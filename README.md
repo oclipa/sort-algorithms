@@ -5,8 +5,8 @@
 
 ## Sort Algorithms:
 
-| Algorithm |  |  |
-| :----------| :-------- | :-------- |
+| Algorithm |  |  |  |
+| :----------| :-------- | :-------- | :-------- |
 | Bubble Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;BubbleSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;BubbleSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;BubbleSort.py) |
 | Counting Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;CountingSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;CountingSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;CountingSort.py) |
 | Heap Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;HeapSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;HeapSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;HeapSort.py) |
