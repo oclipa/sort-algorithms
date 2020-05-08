@@ -7,14 +7,14 @@
 
 | Algorithm |  |  |
 | :----------| :-------- | :-------- |
-| Bubble Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;BubbleSort.cs) | [js](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;BubbleSort.mjs) |
-| Count Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;CountSort.cs) | [js](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;CountSort.mjs) |
-| Heap Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;HeapSort.cs) | [js](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;HeapSort.mjs) |
-| Insertion Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;InsertionSort.cs) | [js](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;InsertionSort.mjs) |
-| Merge Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;MergeSort.cs) | [js](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;MergeSort.mjs) |
-| Quick Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;QuickSort.cs) | [js](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;QuickSort.mjs) |
-| Radix Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;RadixSort.cs) | [js](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;RadixSort.mjs) |
-| Selection Sort | [c#](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;SortAlgorithms&#47;SelectionSort.cs) | [js](https://oclipa.github.io/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;SelectionSort.mjs) |
+| Bubble Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;BubbleSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;BubbleSort.mjs) |
+| Count Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;CountSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;CountSort.mjs) |
+| Heap Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;HeapSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;HeapSort.mjs) |
+| Insertion Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;InsertionSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;InsertionSort.mjs) |
+| Merge Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;MergeSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;MergeSort.mjs) |
+| Quick Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;QuickSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;QuickSort.mjs) |
+| Radix Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;RadixSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;RadixSort.mjs) |
+| Selection Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;SelectionSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;SelectionSort.mjs) |
 
 &nbsp;
 
