@@ -33,8 +33,6 @@ CountingSort.prototype = function () {
   //private members
   const doSort = function (objValues) {
 
-    const hasObjects = objs != null && objs.length > 0;
-
     const valueCount = Math.abs(maxValue - minValue) + 1;
 
     const objCount = objValues.length;
@@ -68,15 +66,7 @@ CountingSort.prototype = function () {
       const objValue = objValues[j];
       const bufferIndex = shiftIndex(objValue, minValue);
 
-      if (hasObjects)
-      {
-        const obj = objs[j];
-        sortedObjs[buffer[bufferIndex]] = obj;
-      }
-      else
-      {
-        sortedObjs[buffer[bufferIndex]] = objValue;
-      }
+      sortedObjs[buffer[bufferIndex]] = objValue;
 
       buffer[bufferIndex]++;
     }
