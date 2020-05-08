@@ -5,16 +5,16 @@
 
 ## Sort Algorithms:
 
-| Algorithm |  |  |
-| :----------| :-------- | :-------- |
-| Bubble Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;BubbleSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;BubbleSort.mjs) |
-| Counting Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;CountingSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;CountingSort.mjs) |
-| Heap Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;HeapSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;HeapSort.mjs) |
-| Insertion Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;InsertionSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;InsertionSort.mjs) |
-| Merge Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;MergeSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;MergeSort.mjs) |
-| Quick Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;QuickSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;QuickSort.mjs) |
-| Radix Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;RadixSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;RadixSort.mjs) |
-| Selection Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;SelectionSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;SelectionSort.mjs) |
+| Algorithm |  |  |  |
+| :----------| :-------- | :-------- | :-------- |
+| Bubble Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;BubbleSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;BubbleSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;BubbleSort.py) |
+| Counting Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;CountingSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;CountingSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;CountingSort.py) |
+| Heap Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;HeapSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;HeapSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;HeapSort.py) |
+| Insertion Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;InsertionSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;InsertionSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;InsertionSort.py) |
+| Merge Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;MergeSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;MergeSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;MergeSort.py) |
+| Quick Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;QuickSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;QuickSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;QuickSort.py) |
+| Radix Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;RadixSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;RadixSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;RadixSort.py) |
+| Selection Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;SelectionSort.cs) | [javascript](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;SelectionSort.mjs) | [python](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;python&#47;SelectionSort.py) |
 
 &nbsp;
 
