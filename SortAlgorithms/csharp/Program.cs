@@ -37,7 +37,7 @@ namespace SortAlgorithms
 
                 List<IAlgorithm> algorithms = new List<IAlgorithm>
                 {
-                    new CountSort(objValues, min, max),
+                    new CountingSort(objValues, min, max),
                     new BubbleSort(objValues),
                     new SelectionSort(objValues),
                     new InsertionSort(objValues),
