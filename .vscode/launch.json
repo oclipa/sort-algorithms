@@ -16,9 +16,9 @@
         "type": "coreclr",
         "request": "launch",
         "preLaunchTask": "build",
-        "program": "${workspaceFolder}/SortAlgorithms/SortAlgorithms/bin/Debug/netcoreapp3.1/SortAlgorithms.dll",
+        "program": "${workspaceFolder}/SortAlgorithms/csharp/bin/Debug/netcoreapp3.1/SortAlgorithms.dll",
         "args": [],
-        "cwd": "${workspaceFolder}/SortAlgorithms/SortAlgorithms",
+        "cwd": "${workspaceFolder}/SortAlgorithms/csharp",
         "console": "internalConsole",
         "stopAtEntry": false
     },
