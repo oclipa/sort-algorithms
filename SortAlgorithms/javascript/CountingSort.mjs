@@ -11,12 +11,12 @@
 //
 // Fast when the range and nature of potential items is known ahead of time,
 // but requires a lot of space (in practice, rarely used).
-const CountSort = function (...args) {
+const CountingSort = function (...args) {
 
   // if user accidentally omits the new keyword, this will 
   // silently correct the problem...
-  if ( !(this instanceof CountSort) )
-     return new CountSort();
+  if ( !(this instanceof CountingSort) )
+     return new CountingSort();
 
   [minValue,  maxValue, objs, ...rest] = args;
 };
@@ -26,9 +26,9 @@ let maxValue = 0;
 let objs = [];
 let rest = [];
 
-CountSort.prototype = function () {
+CountingSort.prototype = function () {
 
-  let algName = 'CountSort';
+  let algName = 'CountingSort';
 
   //private members
   const doSort = function (objValues) {
@@ -95,4 +95,4 @@ CountSort.prototype = function () {
   };
 } ();
 
-export default CountSort;
+export default CountingSort;

@@ -18,7 +18,7 @@ namespace SortAlgorithms
 	/// but requires a lot of space (in practice, rarely used).
 	/// 
 	/// </summary>
-	public class CountSort : AbstractAlgorithm<object>
+	public class CountingSort : AbstractAlgorithm<object>
 	{
 		private object[] _objs;
 		private long _valueCount;
@@ -33,7 +33,7 @@ namespace SortAlgorithms
 		/// <param name="minValue"></param>
 		/// <param name="maxValue"></param>
 		/// <param name="objs"></param>
-		public CountSort(object[] objValues, long minValue, long maxValue, object[] objs = null)
+		public CountingSort(object[] objValues, long minValue, long maxValue, object[] objs = null)
 			: base(objValues)
 		{
 			_objs = objs;

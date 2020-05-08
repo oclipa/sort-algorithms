@@ -8,7 +8,7 @@
 | Algorithm |  |  |
 | :----------| :-------- | :-------- |
 | Bubble Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;BubbleSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;BubbleSort.mjs) |
-| Count Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;CountSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;CountSort.mjs) |
+| Counting Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;CountingSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;CountingSort.mjs) |
 | Heap Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;HeapSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;HeapSort.mjs) |
 | Insertion Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;InsertionSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;InsertionSort.mjs) |
 | Merge Sort | [c#](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;csharp&#47;MergeSort.cs) | [js](/go.html?repo=sort-algorithms&path=SortAlgorithms&#47;javascript&#47;MergeSort.mjs) |
