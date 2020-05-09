@@ -1,7 +1,7 @@
 import Algorithm from './Algorithm.mjs';
 
 import BubbleSort from './BubbleSort.mjs';
-import CountSort from './CountSort.mjs';
+import CountingSort from './CountingSort.mjs';
 import SelectionSort from './SelectionSort.mjs';
 import InsertionSort from './InsertionSort.mjs';
 import MergeSort from './MergeSort.mjs';
@@ -35,7 +35,7 @@ class Program {
 
     const algorithms = [
       new BubbleSort(),
-      new CountSort(min, max, origObjValues),
+      new CountingSort(min, max, origObjValues),
       new SelectionSort(),
       new InsertionSort(),
       new MergeSort(),

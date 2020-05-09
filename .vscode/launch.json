@@ -5,14 +5,30 @@
    "version": "0.2.0",
    "configurations": [
     {
+       "type": "node",
+       "request": "launch",
+       "name": "Launch Javascript Program",
+       "program": "${workspaceFolder}/SortAlgorithms/javascript/Program.js",
+       "skipFiles": [
+           "<node_internals>/**"
+       ]
+    },
+    { 
+        "name":"Launch Python Program",
+        "type":"python",
+        "request":"launch",
+        "program":"${workspaceFolder}/SortAlgorithms/python/Program.py",
+        "console":"integratedTerminal"
+    },
+    {
         "type": "java",
-        "name": "CodeLens (Launch) - Program",
+        "name": "Launch Java Program",
         "request": "launch",
         "mainClass": "SortAlgorithms.java.Program",
         "projectName": "sort-algorithms_a0c8cf46"
     },
     {
-        "name": ".NET Core Launch (console)",
+        "name": "Launch C# Program",
         "type": "coreclr",
         "request": "launch",
         "preLaunchTask": "build",
