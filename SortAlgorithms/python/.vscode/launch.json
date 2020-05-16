@@ -8,7 +8,7 @@
       "name": "Python: Current File",
       "type": "python",
       "request": "launch",
-      "program": "/Users/dev/git/sort-algorithms/SortAlgorithms/python/Program.py",
+      "program": "./Program.py",
       "console": "integratedTerminal"
     }
   ]

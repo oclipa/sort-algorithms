@@ -1,4 +1,4 @@
 {
-  "python.pythonPath": "/Users/dev/.pyenv/versions/3.8.2/bin/python",
+  "python.pythonPath": "~/.pyenv/shims/python",
   "python.formatting.provider": "black"
 }
