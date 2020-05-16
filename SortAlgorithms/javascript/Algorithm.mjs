@@ -20,7 +20,7 @@ Algorithm.prototype = function () {
 
     //console.log(sortedObjs.slice(0, 100));
 
-    console.log(algorithm.algName + ": " + (t1 - t0) + " milliseconds.")   
+    console.log(algorithm.algName + ": " + (t1 - t0))   
   };
 
   const swap = function (objValues, index1, index2) {

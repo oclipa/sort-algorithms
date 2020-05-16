@@ -35,15 +35,16 @@ class Program():
     
     algorithms = np.array([
       BubbleSort(),
-      CountingSort(min, max),
       SelectionSort(),
       InsertionSort(),
-      MergeSort(),
       QuickSort(),
+      MergeSort(),
+      CountingSort(min, max),
       HeapSort(),
       RadixSort()
     ])
 
+    print("Python")
     print("STARTED --------------------------------------------")
 
     for algorithm in algorithms:

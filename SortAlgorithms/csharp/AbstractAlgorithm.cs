@@ -14,8 +14,6 @@ namespace SortAlgorithms
 
         public void Run()
         {
-            Console.WriteLine("[{0}]", this.GetType());
-
             //PrintArray(_objValues);
 
             DateTime start = DateTime.UtcNow;
@@ -24,7 +22,7 @@ namespace SortAlgorithms
 
             //PrintArray(sortedValues);
 
-            Console.WriteLine("[{0}]", (end - start).TotalMilliseconds);
+            Console.WriteLine("{0} : {1}", this.GetType(), (end - start).TotalMilliseconds);
         }
 
         public abstract T[] DoRun();

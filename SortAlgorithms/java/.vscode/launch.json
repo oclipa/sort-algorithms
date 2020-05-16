@@ -6,12 +6,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Debug (Launch) - Current File",
-      "request": "launch",
-      "mainClass": "/Users/dev/git/sort-algorithms/SortAlgorithms/java/Program.java"
-    },
-    {
-      "type": "java",
       "name": "Debug (Launch)-Program",
       "request": "launch",
       "mainClass": "SortAlgorithms.java.Program"

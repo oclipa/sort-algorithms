@@ -35,14 +35,17 @@ class Program {
 
     const algorithms = [
       new BubbleSort(),
-      new CountingSort(min, max, origObjValues),
       new SelectionSort(),
       new InsertionSort(),
-      new MergeSort(),
       new QuickSort(),
+      new MergeSort(),
+      new CountingSort(min, max, origObjValues),
       new HeapSort(),
       new RadixSort()
     ];
+
+    console.log("Javascript");
+    console.log("STARTED --------------------------------------------");
 
     for (let i = 0; i < algorithms.length; i++) {
 
@@ -53,6 +56,8 @@ class Program {
       const alg = new Algorithm();
       alg.run(algorithms[i], objValues);
     }
+
+    console.log("STOPPED --------------------------------------------");
   };
 }
 

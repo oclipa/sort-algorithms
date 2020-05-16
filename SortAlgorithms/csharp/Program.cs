@@ -37,15 +37,18 @@ namespace SortAlgorithms
 
                 List<IAlgorithm> algorithms = new List<IAlgorithm>
                 {
-                    new CountingSort(objValues, min, max),
                     new BubbleSort(objValues),
                     new SelectionSort(objValues),
                     new InsertionSort(objValues),
-                    new MergeSort(objValues),
                     new QuickSort(objValues),
+                    new MergeSort(objValues),
+                    new CountingSort(objValues, min, max),
                     new HeapSort(objValues),
                     new RadixSort(longValues)
                 };
+
+                Console.WriteLine("C#");
+                Console.WriteLine("STARTED --------------------------------------------");
 
                 foreach (IAlgorithm algorithm in algorithms)
                 {
@@ -55,6 +58,8 @@ namespace SortAlgorithms
 
                     algorithm.Run();
                 }
+
+                Console.WriteLine("STOPPED --------------------------------------------");
             }
             catch (Exception x)
             {

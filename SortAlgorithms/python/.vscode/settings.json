@@ -1,4 +1,6 @@
 {
   "python.pythonPath": "~/.pyenv/shims/python",
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "black",
+  // to fix 'Timeout waiting for debugger connections'
+  "python.terminal.activateEnvironment": false
 }

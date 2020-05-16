@@ -11,21 +11,23 @@
        "program": "${workspaceFolder}/SortAlgorithms/javascript/Program.js",
        "skipFiles": [
            "<node_internals>/**"
-       ]
+       ],
+       "console": "integratedTerminal"
     },
     { 
-        "name":"Launch Python Program",
-        "type":"python",
-        "request":"launch",
-        "program":"${workspaceFolder}/SortAlgorithms/python/Program.py",
-        "console":"integratedTerminal"
+        "name": "Launch Python Program",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/SortAlgorithms/python/Program.py",
+        "console": "integratedTerminal"
     },
     {
         "type": "java",
         "name": "Launch Java Program",
         "request": "launch",
         "mainClass": "SortAlgorithms.java.Program",
-        "projectName": "sort-algorithms_a0c8cf46"
+        "projectName": "sort-algorithms_ff85e2bb",
+        "console": "integratedTerminal"
     },
     {
         "name": "Launch C# Program",
@@ -35,7 +37,7 @@
         "program": "${workspaceFolder}/SortAlgorithms/csharp/bin/Debug/netcoreapp3.1/SortAlgorithms.dll",
         "args": [],
         "cwd": "${workspaceFolder}/SortAlgorithms/csharp",
-        "console": "internalConsole",
+        "console": "integratedTerminal",
         "stopAtEntry": false
     },
     {
