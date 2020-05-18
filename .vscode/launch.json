@@ -26,7 +26,7 @@
         "name": "Launch Java Program",
         "request": "launch",
         "mainClass": "SortAlgorithms.java.Program",
-        "projectName": "sort-algorithms_ff85e2bb",
+        "projectName": "sort-algorithms_fea443b9",
         "console": "integratedTerminal"
     },
     {
